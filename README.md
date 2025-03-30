@@ -17,12 +17,13 @@ Let's start with the ***Nerdy Way***:
 > Here you goo
 
 Now the ***Boomer Way***:
-> In the github interface travel to /dist,
-> ![image](https://github.com/user-attachments/assets/8fe4c0a8-8a67-478f-897e-e61b71292530)
-> click on the main.exe file,
-> ![image](https://github.com/user-attachments/assets/9648bc32-6dd8-4bee-ab61-38280d0eabb7)
-> and finally click on the download button.
-> ![image](https://github.com/user-attachments/assets/95762c28-7d7d-4d26-a576-905b328e6e37)
+> **Click on the most recent release**\
+> ![image](https://github.com/user-attachments/assets/94a1c4ef-1c26-4fcf-96be-599d2787bcf1)\
+> **then click on main.exe:**
+> ![image](https://github.com/user-attachments/assets/d9257180-bc8c-4244-9d5a-c26fbbcec8c9)
+> **Here you go.**
+
+
 
 ### Usage
 In future update we're gonna add more specific instructions to the in-app `/help` command, for now carefully read this:
