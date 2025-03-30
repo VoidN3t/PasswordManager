@@ -1,16 +1,26 @@
 # This script is a simple password manager that allows users to add, delete, and view entries with associated passwords.
 #Developers: @VoidN3t [Copilot (Most of the code)]
 #Discord: voidn3t_fake
+
+
+
+
+# Importing the necessary libraries
+import pyperclip as pc
+# Initializing the necessary variables
 entries = []
 entriesPassword = []
 # Printing the welcome message and instructions for the user
-print("--Password Manager--")
-print("Developers: @VoidN3t [Copilot (That just became pilot)]")
-print("Firt thing first, set a universal password")
-print("This password will be used to access the entries")
-print("Type /setUniversalPassword to set the universal password")
-print("Type /help for a list of commands")
-print("Type /exit to exit the program")
+print("""
+--Password Manager--
+Developers: @VoidN3t [Copilot (That just became pilot)]
+Firt thing first, set a universal password
+This password will be used to access the entries
+Type /setUniversalPassword to set the universal password
+Type /help for a list of commands
+Type /exit to exit the program
+""")
+
 # This is the main loop of the program that will run indefinitely until the user exits
 while True:
     # This function will analyze the user input and perform actions based on it
@@ -43,8 +53,8 @@ while True:
                     print("Invalid password")
                     return
                 print("Password is correct")
-                
-                print(f"Entry '{entryName}' found with password '{entriesPassword[index]}'")
+                pc.copy(entriesPassword[index])
+                print(f"Entry '{entryName}' found")
             else:
                 print(f"Entry '{entryName}' not found")
         elif userPromt == "/entryDelete":
