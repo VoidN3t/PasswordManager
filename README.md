@@ -17,7 +17,7 @@ Let's start with the ***Nerdy Way***:
 > Here you goo
 
 Now the ***Boomer Way***:
-> **Click on the most recent release**\
+> **Click on the latest release**\
 > ![image](https://github.com/user-attachments/assets/94a1c4ef-1c26-4fcf-96be-599d2787bcf1)\
 > **then click on main.exe:**
 > ![image](https://github.com/user-attachments/assets/d9257180-bc8c-4244-9d5a-c26fbbcec8c9)
@@ -36,7 +36,7 @@ Here is a list of all commands:
 > `/exit` running this command will close the application\
 > `/entryAdd` this command allows you to create new entries to save password\
 > `/entryDelete` this command do exactly the opposite of `/entryAdd`: delete a entry\
-> `/entry` this is the most important command, running it will make you see the chosen entry and the associeted password\
+> `/entry` this is the most important command, running it will copy in the clipboard the password associated with the selected entry\
 > `/reset` resets all the data registered, careful with this command\
 > `/setUniversalPassword` this command will work only if you hadn't already set a universal password, you'll simply be able to set a universal password\
 
