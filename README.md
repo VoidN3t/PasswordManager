@@ -17,7 +17,7 @@ Let's start with the ***Nerdy Way***:
 > Here you goo
 
 Now the ***Boomer Way***:
-> **Click on the most recent release**\
+> **Click on the latest release**\
 > ![image](https://github.com/user-attachments/assets/94a1c4ef-1c26-4fcf-96be-599d2787bcf1)\
 > **then click on main.exe:**
 > ![image](https://github.com/user-attachments/assets/d9257180-bc8c-4244-9d5a-c26fbbcec8c9)
